@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Conductor</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos_registros.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilos_principal.css" />
+    <script src="js/funciones.js"></script>
+</head>
+<body>
+    <h1>Registro de conductor</h1>
+    <div id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="contactanos.html">Contactanos</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="inicio_sesion.html">Iniciar Sesión</a>
+    </div>
+    <div class="container"><center>
+    <form action="mapa.html">
+            <h1>Datos personales</h1>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellidos" placeholder="Apellidos" required>
+            <input type="date" name="fecha_nacimiento" required>
+            <input type="tel" placeholder="Ingrese su número de teléfono" pattern="[0-9]{10}" required>
+            <input type="password" id="password-input" placeholder="Ingrese su contraseña" required> </br>
+            <h1>Datos del vehículo</h1>
+            <input type="text" name="vehiculo" placeholder="Marca y modelo" required>
+            <input type="text" name="color" placeholder="Color" required>
+            <input type="text" placeholder="Ingrese su placa de carro" pattern="[A-Z]{3}-\d{3}" required>
+            <input type="submit" class="button" value="Registrarse">
+        </center>
+    </form>
+    </div>
+</body>
+</html>

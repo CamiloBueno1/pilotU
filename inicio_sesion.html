@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio sesión</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos_registros.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilos_principal.css" />
+</head>
+<body>
+    
+    <h1>Iniciar Sesión</h1>
+
+    <div id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="contactanos.html">Contactanos</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="inicio_sesion.html">Iniciar Sesión</a>
+    </div>
+
+    <div class="container"><center>
+        <section class="login-form">
+            <form action="mapa.html" login(event)">
+
+                <label for="phone-input">Número de Teléfono:</label>
+                <input type="tel" id="phone-input" placeholder="Ingrese su número de teléfono" pattern="[0-9]{10}" required> </br>
+                
+                <label for="password-input">Contraseña:</label>
+                <input type="password" id="password-input" placeholder="Ingrese su contraseña" required> </br>
+    
+                <button type="submit" class="button">Iniciar Sesión</button>
+            </form>
+        </section>
+    </div>
+    
+    <script src="js/funciones.js"></script>
+</body>
+</html>
